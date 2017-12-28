@@ -659,7 +659,7 @@
     <string name="nfc_options">Options for scanning NFC based sensors with the phone handset</string>
     <string name="nfc_scan_features">NFC Scan features</string>
     <string name="use_nfc_feature">Use NFC feature</string>
-    <string name="allow_sensor_scanning">Allow sensors to be scanned when app is open. Historic data will be back-filled. Highly experiemental! Beware this can maybe break a sensor. Test phone compatibility with an almost expired sensor first. You have been warned!</string>
+    <string name="allow_sensor_scanning">Allow sensors to be scanned when app is open. Historic data will be back-filled. Highly experimental! Beware this can maybe break a sensor. Test phone compatibility with an almost expired sensor first. You have been warned!</string>
     <string name="sensor_age_or_expiry">Sensor Age or Expiry</string>
     <string name="show_expiry_time">Show the sensor expiry time based on 14.5 days</string>
     <string name="show_sensor_age">Show the sensor age on the main screen</string>
