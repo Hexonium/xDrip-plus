@@ -34,7 +34,7 @@
     <string name="title_activity_main">Activité principale</string>
     <string name="title_activity_fake_numbers">Valeurs fictives</string>
     <string name="title_activity_edit_alert">Modifier l\'alerte</string>
-    <string name="title_activity_double_calibration">ibration</string>
+    <string name="title_activity_double_calibration">Double Calibration</string>
     <string name="title_activity_calibration_override">Calibration Override</string>
     <string name="pref_header_cloud_storage">Stockage en ligne</string>
     <string name="auto_configure_title">Configuration automatique</string>
