@@ -17,14 +17,15 @@
     <string name="title_activity_calculated_data_table">Table de données calculé</string>
     <string name="title_activity_start_new_sensor">Démarrer un nouveau capteur</string>
     <string name="title_activity_new_sensor_location">Emplacement du nouveau capteur</string>
-    <string name="title_activity_stop_sensor">Arrêt du capteur</string>
+    <string name="title_activity_stop_sensor">Arrêter capteur</string>
     <string name="title_activity_nav_drawer">Nav Drawer</string>
     <string name="navigation_drawer_open">Ouvrez la fenêtre de navigation</string>
     <string name="navigation_drawer_close">Fermer la fenêtre de navigation</string>
     <string name="title_activity_calibration_check_in">Activité de Calibration</string>
     <string name="title_activity_usb_connected">Activité Usb Connecté</string>
-    <string name="snooze">Roupillon</string>
+    <string name="snooze">Alertes en pause</string>
     <string name="snooze_hint">Alerte Snooze pour x minutes</string>
+    <string name="note_search">Note Search</string>
     <string name="ok">D\'accord</string>
     <string name="cancel">Annuler</string>
     <string name="no">Non</string>
@@ -34,11 +35,11 @@
     <string name="title_activity_main">Activité principale</string>
     <string name="title_activity_fake_numbers">Valeurs fictives</string>
     <string name="title_activity_edit_alert">Modifier l\'alerte</string>
-    <string name="title_activity_double_calibration">Double Calibration</string>
-    <string name="title_activity_calibration_override">Calibration Override</string>
+    <string name="title_activity_double_calibration">Double étalonnage</string>
+    <string name="title_activity_calibration_override">Étalonner</string>
     <string name="pref_header_cloud_storage">Stockage en ligne</string>
     <string name="auto_configure_title">Configuration automatique</string>
-    <string name="prefs_auto_config_summary">Configuration automatique à partir d'un code QR</string>
+    <string name="prefs_auto_config_summary">Configuration automatique à partir d\'un code QR</string>
     <string name="scan_share2_barcode">Numériser Partager Barcode</string>
     <string name="pref_share2_scan_barcode_summary">Ou scanner le code-barres sur le récepteur partagé</string>
 
@@ -72,7 +73,7 @@
 
     <!-- Location Settings -->
     <string name="location_not_found_title">La localisation n\'est pas activée</string>
-    <string name="location_not_found_message">L'appairage Bluetooth d'un nouvel appareil nécessite d'activer la localisation. xDrip n'enregistre pas votre position, et la localisation peut être désactivée une fois l\'appariement réussi.</string>
+    <string name="location_not_found_message">L\'appairage Bluetooth d\'un nouvel appareil nécessite d\'activer la localisation. xDrip n\'enregistre pas votre position, et la localisation peut être désactivée une fois l\'appariement réussi.</string>
     <string name="location_yes">Activer</string>
 
     <!-- broadcast settings -->
@@ -152,16 +153,16 @@
     <string name="added">Ajoutée</string>
     <string name="checking_for_update">Recherche de mises à jour...</string>
     <string name="signal_missed">Signal perdu</string>
-    <string name="space_minutes_ago">" minutes depuis la dernière valeur"</string>
-    <string name="space_minute_ago">" minute depuis la dernière valeur"</string>
+    <string name="space_minutes_ago">" min depuis la dernière mesure"</string>
+    <string name="space_minute_ago">" min depuis la dernière mesure"</string>
     <string name="show_parakeet_map">Afficher la carte Parakeet</string>
     <string name="switch_parakeet_to_setup_mode">Mettre Parakeet en mode de configuration</string>
     <string name="view_events_log">Afficher le journal d\'événements</string>
     <string name="share_config_via_qr_code">Partager la config via le code QR</string>
     <string name="check_for_updated_version">Rechercher des mises à jour</string>
     <string name="send_feedback_to_developer">Envoyer des messages au développeur</string>
-    <string name="home_screen">Écran d\'accueil</string>
-    <string name="calibration_graph">Graphe d'étalonnage</string>
+    <string name="home_screen">Accueil</string>
+    <string name="calibration_graph">Graphe d\'étalonnage</string>
     <string name="glucose_units">Unités de glucose</string>
     <string name="mmol_or_mgdl_high_and_low">mmol/l ou mg/dl Haute et Basse</string>
     <string name="general_settings">Réglages généraux</string>
@@ -181,12 +182,12 @@
     <string name="xdrip_plus_update_settings">Paramètres de mise à jour xDrip+</string>
     <string name="automatic_update_check">Recherche automatique des mises à jour</string>
     <string name="update_channel">Mise à jour du Canal</string>
-    <string name="send_crash_errors_to_developer">Envoyer les rapports d'erreurs aux développeurs</string>
+    <string name="send_crash_errors_to_developer">Envoyer les rapports d\'erreurs aux développeurs</string>
     <string name="automatic_crash_reporting">Rapport d\'incidents automatique</string>
     <string name="send_feedback_message">Envoyer Feedback message</string>
-    <string name="copying_settings">Transfert des paramètres</string>
-    <string name="show_settings_qr_codes">Transfert des paramètres via un code QR</string>
-    <string name="load_save_settings_to_sdcard">Transfert des paramètres via une carte SD</string>
+    <string name="copying_settings">Transfert et sauvegarde des paramètres</string>
+    <string name="show_settings_qr_codes">Transfert et sauvegarde des paramètres via un code QR</string>
+    <string name="load_save_settings_to_sdcard">Transfert et sauvegarde des paramètres via une carte SD</string>
     <string name="alarms_and_alerts">Alertes</string>
     <string name="alerts_and_notifications">Alertes et notifications</string>
     <string name="glucose_level_alerts_list">Liste d\'alertes de niveau de glycémie</string>
@@ -305,19 +306,19 @@
     <string name="could_not_export_database">Impossible d\'exporter la base de données :(</string>
     <string name="exported_to">"Exporté vers "</string>
     <string name="default_to_voice_input_next_time">Par défaut pour exprimer entrée prochaine fois</string>
-    <string name="done">Terminé</string>
-    <string name="entering_a_calibration_now_will_override_your_previously_entered_calibration">La saisie d\'une calibration va maintenant remplacer votre calibration précédente.</string>
-    <string name="enter_blood_glucose_value">Entrer la valeur de glycémie</string>
+    <string name="done">Valider</string>
+    <string name="entering_a_calibration_now_will_override_your_previously_entered_calibration">Saisissez une nouvelle valeur d'étalonnage pour remplacer la précédente.</string>
+    <string name="enter_blood_glucose_value">Valeur de glycémie</string>
     <string name="this_does_not_get_used_for_anything_its_just_to_keep_track_of_differences_for_algorithem_improvement_purposes">Cela ne se sert à rien,  simplement utilisé pour garder la trace des différences pour l\'amélioration de l\'algorithme</string>
     <string name="no_active_alert_exists">Aucune alerte en pause</string>
     <string name="active_alert_exists_named">L\'alerte Active existe et nommé</string>
     <string name="bracket_not_snoozed">(non reporté)</string>
     <string name="all_alerts_disabled_until">"Toutes les alertes sont désactivées jusqu\'à "</string>
-    <string name="low_alerts_disabled_until">"Alertes Basses désactivées jusqu\'à ce que "</string>
+    <string name="low_alerts_disabled_until">"Alertes Basses désactivées jusqu\'à "</string>
     <string name="high_alerts_disabled_until">"Alertes Hautes désactivées jusqu\'à "</string>
     <string name="default_snooze">Durée de pause</string>
     <string name="until_you_reenable">Jusqu\'à ce que vous réactivez</string>
-    <string name="set">Confirmer</string>
+    <string name="set">Valider</string>
     <string name="disable_low_alerts">Mettre en pause les alertes Basses</string>
     <string name="re_enable_low_alerts">Réactiver les alertes Basses</string>
     <string name="disable_high_alerts">Mettre en pause les alertes Hautes</string>
@@ -330,7 +331,7 @@
     <string name="version_details">Détails Version</string>
     <string name="download_now">Télécharger maintenant</string>
     <string name="automatically_check_for_updates">Vérifier automatiquement les mises à jour</string>
-    <string name="here_you_can_save_the_settings_to_the_external_storage_sdcard">Cette fenêtre vous permet d'enregistrer vos paramètres xDrip+ dans la mémoire externe (sdcard) de votre appareil, ou d'importer des paramètres préalablement enregistrés.\n\nLorsque vos paramètres sont enregistrés dans la mémoire externe, les informations personnelles qu'ils contiennent peuvent être lues par vos autres applicationsils. Il est donc conseillé de supprimer les paramètres de votre carte SD une fois le transfert effectuée.</string>
+    <string name="here_you_can_save_the_settings_to_the_external_storage_sdcard">Cette fenêtre vous permet d\'enregistrer vos paramètres xDrip+ dans la mémoire externe (sdcard) de votre appareil, ou d\'importer des paramètres préalablement enregistrés.\n\nLorsque vos paramètres sont enregistrés dans la mémoire externe, les informations personnelles qu\'ils contiennent peuvent être lues par vos autres applications. Il est donc conseillé de supprimer les paramètres de votre carte SD une fois le transfert effectué.</string>
     <string name="save_all_settings_to_sdcard">Enregistrer les paramètres sur la carte SD</string>
     <string name="load_all_settings_from_sdcard">Importer les paramètres depuis la carte SD</string>
     <string name="delete_any_settings_on_sdcard">Supprimer les paramètres de la carte SD</string>
@@ -338,8 +339,8 @@
     <string name="xdrip_plus_security_key_settings_only">Xdrip+ Paramètres clés de sécurité seulement</string>
     <string name="show_general_and_collection_settings">Afficher les paramètres Généraux et Collection</string>
     <string name="copy_all_settings">Copier tous les paramètres</string>
-    <string name="sensor_is_ready_please_enter_double_calibration">Le capteur est prêt, veuillez entrer deux valeurs d'étalonnage</string>
-    <string name="in_order_to_get_started_please_perform_two_finger">Pour commencer, s\'il vous plaît effectuer deux tests de piqûre au doigt et entrez les valeurs ici!</string>
+    <string name="sensor_is_ready_please_enter_double_calibration">Le capteur est prêt, veuillez entrer deux valeurs d\'étalonnage</string>
+    <string name="in_order_to_get_started_please_perform_two_finger">Veuillez entrer deux valeurs d'étalonnage (mesures capillaires de préférence) pour commencer.</string>
     <string name="enter_first_bg_value">Entrer la première valeur de glycémie</string>
     <string name="enter_second_bg_value">Entrer la seconde valeur de glycémie</string>
     <string name="language_editor">Editeur de langue</string>
@@ -348,7 +349,7 @@
     <string name="install_pebble_classic_trend_watchface">Installez Pebble Classic Trend Watchface</string>
     <string name="install_pebble_trend_watchface">Installez Pebble Trend Watchface</string>
     <string name="install_pebble_watchface">Installez Pebble Watchface</string>
-    <string name="glucose_history">Historique Glucose</string>
+    <string name="glucose_history">Historique glycémie</string>
     <string name="import_database">Importer la base de données</string>
     <string name="sensor_table">Table de Capteurs</string>
     <string name="bg_readings_table">Tableau de valeurs de glucoses</string>
@@ -419,10 +420,10 @@
     <string name="display_delta_units">Afficher unités Delta</string>
     <string name="displays_the_slope_arrows">Affiche la flèche de tendance</string>
     <string name="display_slope_arrows">Affichage de la flèche de tendance</string>
-    <string name="vibrate_watch_to_alert_no_data">Faire vibrer la montre lorsqu\'aucune mesure de glucose n'arrive</string>
+    <string name="vibrate_watch_to_alert_no_data">Faire vibrer la montre lorsqu\'aucune mesure de glucose n\'arrive</string>
     <string name="vibrate_when_missed_signal">Faire vibrer la montre lorsque le signal est perdu</string>
     <string name="vibrate_watch_to_alert_no_bluetooth">Faire vibrer la montre lorsque le bluetooth se déconnecte</string>
-    <string name="vibrate_when_no_bluetooth">Faire vibrer la montre lorsqu\'il n'y a pas de bluetooth</string>
+    <string name="vibrate_when_no_bluetooth">Faire vibrer la montre lorsqu\'il n\'y a pas de bluetooth</string>
     <string name="special_glucose_value_to_display_message">La valeur spéciale de glucose pour afficher le message ci-dessous</string>
     <string name="bluetooth_wakelocks">Wakelocks Bluetooth</string>
     <string name="compatible_broadcast">Diffusion Compatible</string>
@@ -444,7 +445,7 @@
     <string name="store_sensor_location_to_help">Stocker la localisation du capteur pour aider à améliorer l\'algorithme</string>
     <string name="help_the_developers_improve_the_algorithm">Aider les développeurs à améliorer l\'algorithme de xDrip.</string>
     <string name="help_the_community">Aider la communauté</string>
-    <string name="double_tap_or_pinch_to_zoom">Double click ou élargissement pour zoomer.</string>
+    <string name="double_tap_or_pinch_to_zoom">Pincer ou double-cliquer pour zoomer</string>
     <string name="start_sensor">Démarrer le capteur</string>
     <string name="debug_and_other_misc_options">Debug et autres options</string>
     <string name="low_glucose_values">Valeurs de glucose Bas</string>
@@ -496,7 +497,7 @@
     <string name="all_day">toute la journée</string>
     <string name="tap_to_change">(Appuyez pour changer)</string>
     <string name="override_phone_silent_mode_colon">Remplacer le mode silencieux du téléphone:</string>
-    <string name="vibrate_on_alert">Vibrez en alerte</string>
+    <string name="vibrate_on_alert">Vibrer en alerte</string>
     <string name="test_alert">alerte de test</string>
     <string name="disable_alert">désactiver les alertes</string>
     <string name="save_alert">sauver l\'alerte</string>
@@ -509,8 +510,8 @@
     <string name="high">haute</string>
     <string name="alert">alerte</string>
     <string name="high_alert">Alerte Haute</string>
-    <string name="low_alert">Low Alert</string>
-    <string name="battery">Battery</string>
+    <string name="low_alert">Alerte Basse</string>
+    <string name="battery">Batterie</string>
     <string name="xbridge_battery">Batterie Xbridge</string>
     <string name="limitter_battery">Batterie de LimiTTer</string>
     <string name="parakeet_battery">Batterie Parakeet</string>
@@ -534,7 +535,7 @@
     <string name="sliding_24_hour_window_summary">Utilisez les dernières 24 heures au lieu de temps à partir de minuit pour les statistiques.</string>
     <string name="sliding_24_hour_window">Fenêtre coulissante</string>
     <string name="split">Divisé</string>
-    <string name="delete">Effacer</string>
+    <string name="delete">Supprimer</string>
     <string name="title_activity_btglucose_meter">Meter Scan</string>
     <string name="notify_when_wear_low_battery">Disabling Force Wear Collection Service due to Wear Low Battery!</string>
     <string name="notify_disable_wearG5_on_missedreadings">Disabling Force Wear Collection Service due to %1$d minutes of missed readings on watch!</string>
@@ -643,7 +644,7 @@
     <string name="show_plugin_data">Show slope and glucose data from the active plugin</string>
     <string name="calibration_plugin">Calibration Plugin</string>
     <string name="advanced_calibration">Etalonnage avancé</string>
-    <string name="extra_calibration_options">Options supplémentaires d'étalonnage</string>
+    <string name="extra_calibration_options">Options supplémentaires d\'étalonnage</string>
     <string name="choose_use_treament_bg">Choose whether to calibrate with the BG value in a Treatment entry</string>
     <string name="usw_treatment_bg">Use Treatment BG values</string>
     <string name="experimental_calibration_plugin">Experimental secondary calibration plugin</string>
@@ -659,7 +660,7 @@
     <string name="nfc_options">Options for scanning NFC based sensors with the phone handset</string>
     <string name="nfc_scan_features">Fonctionnalités de scan NFC</string>
     <string name="use_nfc_feature">Utiliser les fonctionnalités NFC</string>
-    <string name="allow_sensor_scanning">Permettre de scanner un capteur lorsque l'application est ouverte (l'historique des données sera également récupéré). Cette fonctionnalité est expérimentale et peut casser le capteur ! Testez-la d'abord sur un capteur expirant bientôt.</string>
+    <string name="allow_sensor_scanning">Permettre de scanner un capteur lorsque l\'application est ouverte (l\'historique des données sera également récupéré). Cette fonctionnalité est expérimentale et peut casser le capteur ! Testez-la d\'abord sur un capteur expirant bientôt.</string>
     <string name="sensor_age_or_expiry">Sensor Age or Expiry</string>
     <string name="show_expiry_time">Show the sensor expiry time based on 14.5 days</string>
     <string name="show_sensor_age">Show the sensor age on the main screen</string>
@@ -745,8 +746,8 @@
     <string name="reraise_not_snoozed_sooner">Reraise the alert if not snoozed sooner</string>
     <string name="alert_reraise_time">Alert Reraise time</string>
     <string name="alert_seconds_reraise">Number of SECONDS to pass before raising the same alert.</string>
-    <string name="bg_falling_fast">Bg falling fast</string>
-    <string name="bg_rising_fast">Bg rising fast</string>
+    <string name="bg_falling_fast">Chute rapide glycémie</string>
+    <string name="bg_rising_fast">Hausse rapide glycémie</string>
     <string name="falling_threshold">falling threshold</string>
     <string name="rising_threshold">rising threshold</string>
     <string name="set_sound_for_bg_alerts">Set sound used for BG Alerts.</string>
@@ -769,10 +770,10 @@
     <string name="upper_title_bar_flair">Upper Title Bar Flair</string>
     <string name="lower_button_bar_falir">Lower Button Bar Flair</string>
     <string name="force_english_text">Force English Text</string>
-    <string name="using_local_language">Currently using your device\'s local language</string>
-    <string name="forcing_alternate_language">Currently forcing use of alternate language</string>
-    <string name="need_alternate_language">If you need an alternate language translation within xDrip+</string>
-    <string name="chosse_language">Choose a specific language</string>
+    <string name="using_local_language">La langue utilisée actuellement est celle de votre appareil</string>
+    <string name="forcing_alternate_language">La langue utilisée actuellement est différente de celle de votre appareil</string>
+    <string name="need_alternate_language">Utiliser une langue différente de celle de votre appareil pour xDrip+</string>
+    <string name="chosse_language">Choisir une autre langue</string>
     <string name="widget_range_lines">Widget Range Lines</string>
     <string name="show_range_on_widget">Show a high and low line on the widget.</string>
     <string name="delayed_but_more_stable">Delayed but more stable when noisy (not recommended)</string>
@@ -817,11 +818,11 @@
     <string name="repeat_notification_every_90_minutes">Repeat notification sound every 90 minutes if still in vehicle mode</string>
     <string name="repeat_sound">Repeat sound</string>
     <string name="enable_telemetry">Enable Telemetry</string>
-    <string name="send_data_to_developers">Send data to developers about success rates of different devices</string>
+    <string name="send_data_to_developers">Envoyer des données aux développeurs sur les taux de fonctionnements des capteurs</string>
     <string name="try_to_work_around_noisy_readings_ultrasensitive">Start to work around noisy readings even on very low noise levels (engineering mode ony)</string>
     <string name="sidiary_date_title">Export starting from when?</string>
     <string name="blukon">Blucon</string>
     <string name="use_gravity_sensor_to_rotate_items">Use Gravity Sensor to rotate items</string>
     <string name="low_bridge_battery">Low bridge battery</string>
-    <string name="reminders">Reminders</string>
+    <string name="reminders">Rappels</string>
 </resources>
